@@ -1,0 +1,9 @@
+docker/service/UserService.class
+docker/service/CustomUserDetails.class
+docker/WebSecurityConfig.class
+docker/WebApplication.class
+docker/controller/UserController.class
+docker/service/impl/UserServiceImpl.class
+docker/repository/UserRepository.class
+docker/service/CustomUserDetailsService.class
+docker/entity/User.class

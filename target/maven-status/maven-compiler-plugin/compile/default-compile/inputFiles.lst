@@ -1,0 +1,9 @@
+/app/src/main/java/docker/entity/User.java
+/app/src/main/java/docker/repository/UserRepository.java
+/app/src/main/java/docker/controller/UserController.java
+/app/src/main/java/docker/service/UserService.java
+/app/src/main/java/docker/WebApplication.java
+/app/src/main/java/docker/WebSecurityConfig.java
+/app/src/main/java/docker/service/CustomUserDetailsService.java
+/app/src/main/java/docker/service/impl/UserServiceImpl.java
+/app/src/main/java/docker/service/CustomUserDetails.java
