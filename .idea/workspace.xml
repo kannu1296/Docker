@@ -30,7 +30,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ci-cd/jenkins/cd.jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
@@ -84,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -337,16 +337,15 @@
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1792" height="1092" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28900403" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.28900403" />
+      <window_info id="Structure" order="1" sideWeight="0.501548" side_tool="true" visible="true" weight="0.28900403" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Project Explorer" order="8" />
-      <window_info id="Job Explorer" order="9" />
+      <window_info id="Project Explorer" order="7" />
+      <window_info id="Job Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.328807" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3295238" />
@@ -355,16 +354,17 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297769" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49885058" visible="true" weight="0.3559322" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011494" side_tool="true" weight="0.3297769" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295238" />
-      <window_info anchor="bottom" id="Console" order="11" />
-      <window_info anchor="bottom" id="Docker" order="12" sideWeight="0.4994253" weight="0.3297769" />
-      <window_info anchor="bottom" id="Graph Database Console" order="13" />
-      <window_info anchor="bottom" id="Anonymous Apex" order="14" />
-      <window_info anchor="bottom" id="Log Analyzer" order="15" />
-      <window_info anchor="bottom" id="SOQL Query" order="16" />
-      <window_info anchor="bottom" id="SonarLint" order="17" />
+      <window_info anchor="bottom" id="Favorites" order="8" weight="0.32901296" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49885058" visible="true" weight="0.3559322" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5011494" side_tool="true" weight="0.3297769" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295238" />
+      <window_info anchor="bottom" id="Console" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" sideWeight="0.4994253" weight="0.3297769" />
+      <window_info anchor="bottom" id="Graph Database Console" order="14" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="15" />
+      <window_info anchor="bottom" id="Log Analyzer" order="16" />
+      <window_info anchor="bottom" id="SOQL Query" order="17" />
+      <window_info anchor="bottom" id="SonarLint" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -624,13 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/docker/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -645,6 +638,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
         </state>
       </provider>
     </entry>
