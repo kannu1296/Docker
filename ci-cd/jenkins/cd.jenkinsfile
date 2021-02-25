@@ -4,7 +4,12 @@ pipeline{
     stages{
         stage('Build'){
             steps{
+            
                 echo "Build"
+                sh """
+                    #build the image
+                    docker-compose up
+                """
             }
         }
         stage('Image Push'){
