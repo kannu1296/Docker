@@ -1,19 +1,10 @@
 pipeline{
-    agent{
-        label "docker"
-    }
+    agent any
 
     stages{
         stage("Build"){
             steps{
-                git branch: 'docker',
-                    credentialsId: 'git-credentials',
-                    url: 'https://github.com/kannu1296/Docker.git'
-
-                sh """
-                    #build the image
-                    docker-compose up
-                """
+                echo "Build"
             }
         }
         stage("Image Push"){
