@@ -15,8 +15,10 @@ pipeline{
         stage('Image Push'){
             steps{
                 echo "Pushing Image"
-                docker login -u karan1296 -p 09876Karan
-                docker-compose push
+                sh """
+                    docker login -u karan1296 -p 09876Karan
+                    docker-compose push
+                """
             }
         }
         stage('Test'){
